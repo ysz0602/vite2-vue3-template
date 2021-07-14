@@ -1,5 +1,6 @@
 {
   "version": "0.0.0",
+  "homepage": "https://ysz0602.github.io/github-actions-demo",
   "scripts": {
     "dev": "cross-env NODE_ENV=development vite",
     "build": "vite build",
