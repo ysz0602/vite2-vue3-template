@@ -1,1 +1,0 @@
-import{c as a,b as s,t as d,p as t,m as o,a as c,o as e}from"./vendor.9d7c8355.js";t("data-v-6184d8cb");const p=o(" detail ");c();const l={setup:t=>(t,o)=>(e(),a("div",null,[p,s("span",null,d(t.$route.params.id),1)])),__scopeId:"data-v-6184d8cb"};export default l;
