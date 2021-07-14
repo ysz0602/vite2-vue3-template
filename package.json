@@ -1,6 +1,6 @@
 {
   "version": "0.0.0",
-  "homepage": "https://ysz0602.github.io/",
+  "homepage": "https://ysz0602.github.io/vite2-vue3-template",
   "scripts": {
     "dev": "cross-env NODE_ENV=development vite",
     "build": "vite build",
