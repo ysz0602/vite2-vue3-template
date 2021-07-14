@@ -16,7 +16,7 @@ jobs:
         npm run build
 
     - name: 部署
-      uses: JamesIves/github-pages-deploy-action@master
+      uses: JamesIves/vite2-vue3-template@master
       with:
         ACCESS_TOKEN: ${{ secrets.PRIVATE_KEY }}
         BRANCH: gh-pages
