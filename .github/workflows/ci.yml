@@ -22,7 +22,7 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.PRIVATE_KEY }}
           BRANCH: gh-pages
           FOLDER: dist
-          REPOSITORY_NAME: ysz0602/vite2-vue3-template
+          # REPOSITORY_NAME: ysz0602/vite2-vue3-template
           TARGET_FOLDER: vite2-vue3-template
         # with:
         #   PERSONAL_TOKEN: ${{secrets.PRIVATE_KEY}}
