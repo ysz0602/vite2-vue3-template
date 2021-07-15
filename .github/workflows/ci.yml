@@ -19,7 +19,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          ACCESS_TOKEN: ${{ secrets.DEPLOY_KEY }}
+          ACCESS_TOKEN: ${{ secrets.PRIVATE_KEY }}
           BRANCH: master
           FOLDER: dist
           REPOSITORY_NAME: ysz0602/ysz0602.github.io
