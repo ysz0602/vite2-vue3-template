@@ -22,7 +22,7 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.PRIVATE_KEY }}
           BRANCH: master
           FOLDER: dist
-          REPOSITORY_NAME: ysz0602/ysz0602.github.io
+          REPOSITORY_NAME: ysz0602/vite2-vue3-template
           TARGET_FOLDER: vite2-vue3-template
         # with:
         #   PERSONAL_TOKEN: ${{secrets.PRIVATE_KEY}}
