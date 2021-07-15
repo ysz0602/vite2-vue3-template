@@ -22,8 +22,9 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.PRIVATE_KEY }}
           BRANCH: gh-pages
           FOLDER: dist
+          BUILD_SCRIPT: npm install && npm run build # 执行的命令
           # REPOSITORY_NAME: ysz0602/vite2-vue3-template
-          TARGET_FOLDER: vite2-vue3-template
+          # TARGET_FOLDER: vite2-vue3-template
         # with:
         #   PERSONAL_TOKEN: ${{secrets.PRIVATE_KEY}}
         #   BRANCH: gh-pages # 存放产物的分支名称
