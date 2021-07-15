@@ -20,7 +20,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           ACCESS_TOKEN: ${{ secrets.PRIVATE_KEY }}
-          BRANCH: master
+          BRANCH: gh-pages
           FOLDER: dist
           REPOSITORY_NAME: ysz0602/vite2-vue3-template
           TARGET_FOLDER: vite2-vue3-template
